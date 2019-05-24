@@ -1,0 +1,9 @@
+Alias-python
+
+export ANACONDA_HOME="/anaconda3"
+alias my_anaconda="unset PYENV_HOME && export PATH=$ANACONDA_HOME/bin:$PATH"
+
+# Load pyenv automatically by adding
+# the following to ~/.bash_profile:
+export PYENV_HOME="/home/username/.pyenv/"
+alias my_pyenv='unset ANACONDA_HOME && export PATH=$PYENV_HOME/bin:$PATH && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)"'

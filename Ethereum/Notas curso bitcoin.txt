@@ -1,0 +1,19 @@
+Notas curso bitcoin
+
+blockdozer.com : seguir blocks
+blockchaininformer.com
+blockchain.info
+blockexplorer.com
+
+Dudas:
+
+Soft fork (segwit) vs hard fork (bitcoin cash)
+What data is the data in bitcoin transaction
+How does segwit work
+Merkle root vs data
+How do passwords in bitcoin work
+Before doing a transaction should I look the USD value of bitcoin?
+What does nonce actually mean? 
+What happens if, in a hypothetical scenario, there is a distributed blockchain with 4 peers, and at the 3rd block 2 of them have some information and other 2 have other information?
+
+Further explanation of brain wallet

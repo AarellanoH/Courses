@@ -1,0 +1,33 @@
+Notas seccion react
+
+-npm start
+-npm install
+-npm install --save youtube-api-search
+-npm install --save loadash
+
+
+Atom plugins
+------------
+emmet
+highlight-selected
+ask-stack
+file-icons
+pigments: colors
+minimap
+expose: tab previews
+pane-layout-plus
+open-recent
+autocomplete-html
+autoclose-html
+atom-react
+refactor
+
+-What is transpiler
+-What is babel
+	-babeljs.io: convert to vanilla js
+-What is es6, ES2016
+-jsx: html lookalike inside js
+
+-State: plain js object used to record or react to user events class defined component
+	-When state changes makes render() to be rerun, and also re-render their children
+	-class based components have them

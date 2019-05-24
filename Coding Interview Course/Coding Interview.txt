@@ -1,0 +1,50 @@
+Coding Interview Course
+
+Que es lo que busca evaluar una empresa en mi:
+
+Contacto inicial
+---------------
+1. Experiencia laboral
+2. Proyectos personales
+3. Soft skills?
+
+Interview phase
+---------------
+1. Culture fit
+2. Coding?
+
+
+sudo npm install -g jest
+jest fib/test.js --watch
+node inspect index.js
+debugger; call to function, repl to inspect
+
+
+Tarea
+-----
+1. Buscar ejemplos de optimizacion de codigo
+2. Buscar ejemplos de problemas de entrevista
+3. Buscar ejemplos de leer codigo y entender para que funciona
+4. Search mock google interview: https://www.youtube.com/watch?v=IWvbPIYQPFM
+5. Arreglar mi CV
+6. Softskills of an engineer: https://medium.freecodecamp.org/how-to-be-a-successful-software-engineer-6f82a5b1a82e
+7. Herramientas para mejorar en entrevistas
+8. Buscar mas sobre funciones lambda
+9. Hacer ejercicios en un lenguaje especifico para familiarizarme con funciones etc
+
+Additional exercises
+1. Merge sorted linked lists
+
+
+Tips a recordar
+---------------
+1. Remember abstraction and moudlarization
+2. Hablar con el entrevistador. Por ejemplo, hay variables que no son necesarias como tal, pero que desde mi punto de vista aportan a legibilidad
+3. Preguntar si es importante proteger para excepciones o errores de input del usuario
+
+
+Useful functions in all languages
+---------------–-----------------
+1. split('') para generar arreglos
+2. toString(), parseInt(), etc
+3. substring()

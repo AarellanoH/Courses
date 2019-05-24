@@ -1,0 +1,17 @@
+Machine learning notes
+
+Tools
+	1. Julia
+	2. Docker
+	3. Book: Data science for business (added value), Data science from scratch with python
+	4. www.superdatascience.com/machine-learning
+
+Parts in machine learning
+1. Data preprocessing
+2. Regression
+3. Simple linear regression
+
+
+Preprocessing
+-------------
+- Independent variables are used to predict a dependent variable

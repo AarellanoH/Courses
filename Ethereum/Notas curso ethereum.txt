@@ -1,0 +1,79 @@
+Notas curso ethereum
+
+Commands
+--------
+npm init
+npm install --save 
+	ganache-cli
+	mocha
+	solc@0.4.25
+	fs-extra
+	web3@1.0.0-beta.35
+	truffle-hdwallet-provider@0.0.3
+node deploy.js
+
+
+rinkeby-faucet.com
+
+
+Preguntas
+What does nonce actually mean? 
+
+seed:
+hollow village column improve course keen sport bus when fix shadow banner
+
+
+Solidity online:
+http://remix.ethereum.org/#optimize=false&version=soljson-v0.5.1+commit.c8a2cb62.js
+
+-ganache: local ethereum network
+-web3: interface between js and ethereum network
+-assert: for testing purposes -> npm run test
+
+-web3 has two two version that are quite differente: v0.2(22).x - v1.x.x
+-web3.functions() are async, they return promises
+
+-hdwalletprovider: provider to specify account to unlock and to specify network node to connect to
+	-node deploy.js
+
+-http://rinkeby.etherscan.io: scan to read transactions
+
+
+Contract deployed to 0xC6e2429431171E915d6f71c7255A20e9a375310a
+
+
+Solidity basic types
+--------------------
+- int, uint, bool, string, fixed, ufixed, address
+
+
+Solidity reference types
+------------------------
+-fixed arrays: int[3]
+-dynamic arrays: int[]
+-mapping: key-value pair of same type of keys and same type of values, mapping(string => bool). 
+	-Hashtable
+	-cannot iterate over their values
+	-keys are not stored
+	-all values 'exist', because hash function always returns an index
+
+-struct: struct:
+	Struct Car
+	{
+		string color;
+		string brand;
+	}
+
+
+Global variables
+-----------------
+-msg, msg.address
+-block, block.difficulty
+-now
+
+
+Storage vs memory
+-----------------
+-using storage keyword makes a pointer to the variable in storage
+-using memory keyword makes a copy of the variable in memory
+-by default, to functions, variables are sent as memory (by value passing)

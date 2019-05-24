@@ -1,0 +1,7 @@
+Problemas
+
+1. Write a program that prints numbers from 1 to 100. But for multiples of 3 print Fizz instead of the number and for multiples of 5 print Buzz. For numbers which are multiple of both three and five print FizzBuzz
+
+2. Fibonacci series
+A series of numbers in which each number (Fibonacci number) is the sum of the two preceeding numbers. 1, 1, 2, 3, 5, 8, etc
+Solucion: recursiva
